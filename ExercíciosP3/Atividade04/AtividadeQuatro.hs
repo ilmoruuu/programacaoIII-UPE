@@ -34,3 +34,6 @@ fibonacci n
         fib a b 1 = [a]
         fib a b 2 = [a, b]
         fib a b x = a : fib b (a + b) (x - 1)
+
+-- Questao 06
+-- Letra A

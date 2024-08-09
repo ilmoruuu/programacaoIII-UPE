@@ -25,7 +25,7 @@ compararMaior x y z
 
 -- Questao 03
 potencia_2 :: Int -> Int
-potencia_2 x = x * x
+potencia_2 x = x ^ x
 
 -- Questao 04
 potencia_4 :: Int -> Int
@@ -71,5 +71,3 @@ mod2 x y
 sequencia :: Int -> Double
 sequencia 1 = sqrt 6
 sequencia n = sqrt (6 + sequencia (n - 1))
-
--- Questao 12
